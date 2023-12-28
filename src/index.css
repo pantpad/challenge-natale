@@ -86,3 +86,8 @@ body {
   transform: translateY(-15px);
   filter: saturate(70%);
 }
+
+.planet img {
+  display: block;
+  max-width: 100%;
+}
