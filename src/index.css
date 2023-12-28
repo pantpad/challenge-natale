@@ -9,6 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --bg-color: #f3f8f9;
+  --planet-text-color: #187490;
 }
 
 *,
@@ -70,21 +71,27 @@ body {
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
-  gap: 30px 1rem;
+  gap: 45px 1rem;
   margin-block-start: 2em;
 }
 
 .planet {
-  background-color: blue;
   height: 300px;
   width: 300px;
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
   transition: 0.25s ease-out;
 }
 
 .planet:hover {
   transform: translateY(-15px);
   filter: saturate(70%);
+}
+
+.planetTitle {
+  color: var(--planet-text-color);
+}
+
+.planet button {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .planet img {

@@ -28,6 +28,7 @@ function App() {
         <h2>Seleziona un pianeta!</h2>
         <div className="planetGrid">
           <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
             <button onClick={openDialog}>
               <img src={earth} alt="" />
             </button>
@@ -42,15 +43,60 @@ function App() {
               <button onClick={closeDialog}>Close Planet</button>
             </dialog>
           </div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
-          <div className="planet"></div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
+          <div className="planet">
+            <h2 className="planetTitle">EARTH</h2>
+            <button onClick={openDialog}>
+              <img src={earth} alt="" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
