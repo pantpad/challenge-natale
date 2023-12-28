@@ -7,7 +7,7 @@ import saturn from "../assets/images/saturn.gif";
 import uranus from "../assets/images/uranus.webp";
 import neptune from "../assets/images/neptune.webp";
 import pluto from "../assets/images/pluto.webp";
-import ceres from "../assets/images/mars.webp";
+import ceres from "../assets/images/ceres.webp";
 
 const planetsData = [
   {
@@ -101,7 +101,7 @@ const planetsData = [
   },
   {
     name: "Ceres",
-    image: mars,
+    image: ceres,
     title: "The Asteroid Belt Dwarf",
     description:
       "Ceres is the largest object in the asteroid belt between Mars and Jupiter and is classified as a dwarf planet. It is composed of rock and water-ice.",

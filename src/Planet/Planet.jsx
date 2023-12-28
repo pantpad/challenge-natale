@@ -19,7 +19,7 @@ function Planet({ name, image, title, description, distanceFromSun, diameter, gr
 
   function handleBackdropClick(e) {
     if (e.target == dialog) {
-      dialog.close();
+      closeDialog();
     }
   }
 
