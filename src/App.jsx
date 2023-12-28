@@ -30,55 +30,15 @@ function App() {
         <h2>Seleziona un pianeta!</h2>
         <div className="planetGrid">
           <Planet {...planetsData[0]} />
+          <Planet {...planetsData[1]} />
           <Planet {...planetsData[2]} />
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
-          <div className="planet">
-            <h2 className="planetTitle">EARTH</h2>
-            <button onClick={openDialog}>
-              <img src={earth} alt="" />
-            </button>
-          </div>
+          <Planet {...planetsData[3]} />
+          <Planet {...planetsData[4]} />
+          <Planet {...planetsData[5]} />
+          <Planet {...planetsData[6]} />
+          <Planet {...planetsData[7]} />
+          <Planet {...planetsData[8]} />
+          <Planet {...planetsData[9]} />
         </div>
       </div>
     </div>

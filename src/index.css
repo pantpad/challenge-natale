@@ -75,27 +75,3 @@ body {
   gap: 45px 1rem;
   margin-block-start: 2em;
 }
-
-.planet {
-  width: 300px;
-  height: 300px;
-  transition: all 0.25s ease-out, saturate 0s;
-}
-
-.planet:hover {
-  transform: translateY(-15px);
-  filter: saturate(300%);
-}
-
-.planetTitle {
-  color: var(--planet-text-color);
-}
-
-.planet button {
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
-}
-
-.planet img {
-  display: block;
-  max-width: 100%;
-}
