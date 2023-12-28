@@ -1,12 +1,7 @@
 .planet {
   width: 300px;
   height: 300px;
-  transition: all 0.25s ease-out, saturate 0s;
-}
-
-.planet:is(:hover, :active) {
-  transform: translateY(-15px);
-  filter: saturate(300%);
+  transition: all 0.25s ease-out, saturate 0s, opacity 0s;
 }
 
 .planetTitle {
@@ -23,3 +18,46 @@
   aspect-ratio: 1;
   object-fit: cover;
 }
+
+.planet:has(img:hover) {
+  transform: translateY(-15px);
+  filter: saturate(300%);
+}
+
+dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+}
+
+dialog button {
+  padding: 1em;
+  background-color: rgba(255, 0, 0, 0.8);
+  margin-block-start: 1em;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.67);
+}
+
+/* .planet .backdrop {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.67);
+  pointer-events: none;
+}
+
+dialog[open] + .backdrop {
+  opacity: 1;
+  z-index: 1;
+  pointer-events: all;
+} */
