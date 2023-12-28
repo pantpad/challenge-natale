@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 :root {
-  font-family: "Space Grotesk", "Roboto", Inter, system-ui, Avenir, Helvetica,
-    Arial, sans-serif;
+  font-family: "Space Grotesk", "Roboto", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -57,7 +56,9 @@ body {
 }
 
 .titleContainer {
-  margin-block-start: 2em;
+  margin-block-start: 1em;
+  font-size: 3.2rem;
+  text-align: center;
 }
 
 .planetContainer {
@@ -76,14 +77,14 @@ body {
 }
 
 .planet {
-  height: 300px;
   width: 300px;
-  transition: 0.25s ease-out;
+  height: 300px;
+  transition: all 0.25s ease-out, saturate 0s;
 }
 
 .planet:hover {
   transform: translateY(-15px);
-  filter: saturate(70%);
+  filter: saturate(300%);
 }
 
 .planetTitle {

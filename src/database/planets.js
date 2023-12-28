@@ -1,10 +1,11 @@
-export const planetsData = [
+import earth from "../assets/images/rotating_earth.gif";
+
+const planetsData = [
   {
     name: "Mercury",
     image: "mercury.jpg",
     title: "The Swift Planet",
-    description:
-      "Mercury is the smallest planet in our solar system and the closest to the Sun.",
+    description: "Mercury is the smallest planet in our solar system and the closest to the Sun.",
     distanceFromSun: "36 million miles (58 million kilometers)",
     diameter: "4,880 kilometers",
     gravity: "3.7 m/s²",
@@ -21,7 +22,7 @@ export const planetsData = [
   },
   {
     name: "Earth",
-    image: "earth.jpg",
+    image: earth,
     title: "The Blue Planet",
     description:
       "Earth is the third planet from the Sun and the only known celestial body to support life.",
@@ -100,3 +101,5 @@ export const planetsData = [
     gravity: "0.28 m/s²",
   },
 ];
+
+export default planetsData;
