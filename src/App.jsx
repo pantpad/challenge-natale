@@ -12,7 +12,6 @@ function App() {
         <h1>REACT PLANETS</h1>
       </div>
       <div className="planetContainer">
-        <h2>Select a Planet! </h2>
         <div className="planetGrid">
           <Planet {...planetsData[0]} />
           <Planet {...planetsData[1]} />
