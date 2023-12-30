@@ -33,10 +33,24 @@ function Planet({ name, image, title, description, distanceFromSun, diameter, gr
         <div className="dialogContent">
           <div>
             <h2>{name.toUpperCase()}</h2>
-            <p>{description}</p>
-            <p>Distance from the sun: {distanceFromSun}</p>
-            <p>Planet Diameter: {diameter}</p>
-            <p>Planet Gravity: {gravity}</p>
+            <div className="planetInformation">
+              <div className="info">
+                <h4>Description</h4>
+                <p>{description}</p>
+              </div>
+              <div className="info">
+                <h4>Distance from the sun</h4>
+                <p>{distanceFromSun}</p>
+              </div>
+              <div className="info">
+                <h4>Planet Diameter:</h4>
+                <p>{diameter}</p>
+              </div>
+              <div className="info">
+                <h4>Planet Gravity:</h4>
+                <p>{gravity}</p>
+              </div>
+            </div>
           </div>
           <button onClick={closeDialog}>Close Planet</button>
         </div>
