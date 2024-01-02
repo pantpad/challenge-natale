@@ -13,16 +13,9 @@ function App() {
       </div>
       <div className="planetContainer">
         <div className="planetGrid">
-          <Planet {...planetsData[0]} />
-          <Planet {...planetsData[1]} />
-          <Planet {...planetsData[2]} />
-          <Planet {...planetsData[3]} />
-          <Planet {...planetsData[4]} />
-          <Planet {...planetsData[5]} />
-          <Planet {...planetsData[6]} />
-          <Planet {...planetsData[7]} />
-          <Planet {...planetsData[8]} />
-          <Planet {...planetsData[9]} />
+          {planetsData.map((planet) => (
+            <Planet {...planet} />
+          ))}
         </div>
       </div>
     </div>
